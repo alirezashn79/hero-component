@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Details() {
   return (
     <section className="text-white flex items-start flex-col md:flex-row gap-8 px-24 py-6">
