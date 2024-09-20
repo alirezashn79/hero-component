@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cuBlack;
+}
+
+.hero {
+  background: #371665;
+  background: linear-gradient(150deg, #371665 65%, #ff01b6 100%);
+}
+
+.lock-body-scroll {
+  overflow: hidden !important;
+}
