@@ -24,29 +24,29 @@ export default function Navbar() {
 
             <div className="flex items-center gap-8 lg:gap-x-[60px] text-sm lg:text-base xl:text-xl font-semibold">
               <ul className="flex items-center gap-x-8 lg:gap-10  xl:gap-x-[70px] text-white">
-                <li>
+                <li className="hover:text-cuPink transition-colors">
                   <a href="#">Services</a>
                 </li>
-                <li>
+                <li className="hover:text-cuPink transition-colors">
                   <a href="#">Pricing</a>
                 </li>
-                <li>
+                <li className="hover:text-cuPink transition-colors">
                   <a href="#">Meet us</a>
                 </li>
-                <li>
+                <li className="hover:text-cuPink transition-colors">
                   <a href="#">Meet Tools</a>
                 </li>
               </ul>
 
               <div className="flex items-center gap-x-4 text-sm lg:text-base xl:text-xl">
                 <a
-                  className="bg-white text-cuPink rounded-full px-2.5 py-1 lg:px-6 lg:py-2.5"
+                  className="bg-white border-2 border-white hover:border-cuPink hover:text-cuPurple transition-all text-cuPink rounded-full px-2.5 py-1 lg:px-6 lg:py-2.5"
                   href="#"
                 >
                   Signin
                 </a>
                 <a
-                  className="bg-white text-cuPink rounded-full px-2.5 py-1 lg:px-6 lg:py-2.5"
+                  className="bg-white border-2 border-white hover:border-cuPink hover:text-cuPurple transition-all text-cuPink rounded-full px-2.5 py-1 lg:px-6 lg:py-2.5"
                   href="#"
                 >
                   Book a meeting
@@ -86,10 +86,10 @@ export default function Navbar() {
 
       <div
         className={cn(
-          "absolute md:hidden left-0 top-0 bottom-0 w-52 sm:w-64 h-screen bg-slate-900 text-white transition-all z-30",
+          "absolute md:hidden left-0 top-0 bottom-0 w-60 sm:w-64 h-screen bg-slate-900 text-white transition-all z-30 px-2",
           isOpenMenu
             ? "translate-x-0 sm:translate-x-0 shadow-2xl shadow-cuPink"
-            : "-translate-x-52 sm:-translate-x-64"
+            : "-translate-x-60 sm:-translate-x-64"
         )}
       >
         <div className="flex justify-end mt-4 mr-2">
