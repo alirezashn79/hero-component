@@ -1,6 +1,6 @@
-# React + TypeScript + Vite
+# Hero Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small and attractive hero component with TailwindCss
 
 Currently, two official plugins are available:
 
